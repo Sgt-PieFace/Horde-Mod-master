@@ -481,9 +481,11 @@ void() teleport_use =
 	force_retouch = 2;		// make sure even still objects get hit
 	self.think = SUB_Null;
 };
-void() trigger_mspawn =
+void() func_mspawn =
 {
+          self.effects = 2;
 };
+
 /*QUAKED trigger_teleport (.5 .5 .5) ? PLAYER_ONLY SILENT
 Any object touching this will be transported to the corresponding info_teleport_destination entity. You must set the "target" field, and create an object with a "targetname" field that matches.
 

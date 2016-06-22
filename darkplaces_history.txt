@@ -1,0 +1,14 @@
+crosshair 1
+map hordetest
+path
+sv_cheats 1
+map hordetest
+noclip
+noclip
+prvm_edicts server
+path
+showbboxes
+show_bboxes
+r_showbboxes
+r_showbboxes 1
+prvm_edicts server
