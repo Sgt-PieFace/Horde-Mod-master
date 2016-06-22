@@ -12,3 +12,12 @@ show_bboxes
 r_showbboxes
 r_showbboxes 1
 prvm_edicts server
+path
+r_showbboxes 1
+prvm_edicts server
+prvm_edicts server
+r_showbboxes 1
+r_showbboxes 0
+r_showbboxes 1
+prvm_edictset server 8 effects 8194
+prvm_edict server 8 effects
